@@ -1,0 +1,21 @@
+# Site settings
+title: My Coding Journey
+header-img: img/home-bg.png
+email: ajoeford@gmail.com
+copyright_name: andrewjford
+description: > # this means to ignore newlines until "baseurl:"
+  Where I blog about my experiences in learning programming.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  andrewjford
+learn_profile: andrewjford
+email_username: ajoeford@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
