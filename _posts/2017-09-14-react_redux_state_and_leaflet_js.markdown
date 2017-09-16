@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React/Redux State and Leaflet JS"
-date:   2017-09-14 17:55:03 +0000
+date:   2017-09-14 13:55:04 -0400
 ---
 
 
@@ -18,13 +18,13 @@ The TileLayer component must also be set in the Map to specify what map tiling t
 import { Map, TileLayer } from 'react-leaflet';
 
 render() {
-  return <Map center={this.props.map.center}
-			zoom={this.props.map.zoom}
-			<TileLayer
-				// attribution= 'attributions to mapbox here'
-				url="https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token={SOME_TOKEN}"
-			/>
-			</Map>
+  return <Map center={this.props.map.center} 
+	  zoom={this.props.map.zoom}
+		<TileLayer
+			// attribution= 'attributions to mapbox here'
+			url="MAPBOX_URL?access_token={SOME_TOKEN}"
+		/>
+		</Map>
 }
 ```
 
